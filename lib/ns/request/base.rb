@@ -2,12 +2,14 @@ module Ns
   module Request
     class Base
 
+      attr_reader :response
+
       def initialize
         HTTPI.log = false
       end
 
       def perform
-        HTTPI.get(url_for_request)
+        @response = HTTPI.get(url_for_request)
       end
 
       private

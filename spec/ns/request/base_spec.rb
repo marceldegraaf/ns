@@ -6,6 +6,8 @@ describe Ns::Request::Base do
 
   subject { Ns::Request::Base.new }
 
+  let(:response) { HTTPI::Response.new(200, [], 'OK') }
+
   it 'should disable HTTPI logging' do
     HTTPI.should_receive(:log=).with(false)
     Dummy.new
@@ -46,10 +48,11 @@ describe Ns::Request::Base do
   it 'should perform the request' do
     url_for_request = HTTPI::Request.new('http://foo.com').url
     subject.stub!(:url_for_request).and_return(url_for_request)
+    HTTPI.stub(:get).and_return(response)
 
-    HTTPI.should_receive(:get).with(url_for_request)
-
+    subject.response.should == nil
     subject.perform
+    subject.response.should == response
   end
 
 end

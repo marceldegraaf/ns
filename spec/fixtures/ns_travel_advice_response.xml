@@ -1,0 +1,2444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReisMogelijkheden>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>2</AantalOverstappen>
+			<GeplandeReisTijd>1:08</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:08</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T20:44:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T20:44:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T21:52:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T21:52:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31361</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T20:44:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Ede-Wageningen</Naam>
+								<Tijd>2013-02-15T20:48:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">1a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3174</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede-Wageningen</Naam>
+							<Tijd>2013-02-15T20:56:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Driebergen-Zeist</Naam>
+									<Tijd>2013-02-15T21:12:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2013-02-15T21:22:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">5a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>874</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Utrecht Centraal</Naam>
+							<Tijd>2013-02-15T21:25:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">7a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Amstel</Naam>
+									<Tijd>2013-02-15T21:43:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T21:52:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:23</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:23</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T20:44:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T20:44:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T22:07:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T22:07:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31361</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T20:44:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Ede-Wageningen</Naam>
+								<Tijd>2013-02-15T20:48:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">1a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3074</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede-Wageningen</Naam>
+							<Tijd>2013-02-15T21:11:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Veenendaal-De Klomp</Naam>
+									<Tijd>2013-02-15T21:16:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Driebergen-Zeist</Naam>
+									<Tijd>2013-02-15T21:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Centraal</Naam>
+									<Tijd>2013-02-15T21:40:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Amstel</Naam>
+									<Tijd>2013-02-15T21:58:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T22:07:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">7a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:30</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:30</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T20:59:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T20:59:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T22:29:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T22:29:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31362</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T20:59:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T21:07:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T21:16:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T21:20:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T21:27:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-15T21:33:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>1578</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-15T21:56:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">7</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Hilversum</Naam>
+									<Tijd>2013-02-15T22:08:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T22:29:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">11a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:23</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:23</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T21:14:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T21:14:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T22:37:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T22:37:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31363</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T21:14:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Ede-Wageningen</Naam>
+								<Tijd>2013-02-15T21:18:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">1a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3076</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede-Wageningen</Naam>
+							<Tijd>2013-02-15T21:41:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Veenendaal-De Klomp</Naam>
+									<Tijd>2013-02-15T21:46:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Driebergen-Zeist</Naam>
+									<Tijd>2013-02-15T21:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Centraal</Naam>
+									<Tijd>2013-02-15T22:10:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Amstel</Naam>
+									<Tijd>2013-02-15T22:28:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T22:37:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:30</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:30</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T21:29:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T21:29:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T22:59:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T22:59:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31364</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T21:29:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T21:37:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T21:46:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T21:50:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T21:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-15T22:03:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS Hispeed</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>140</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Reserveren buitenl. aanbevolen</Reisdetail>
+													
+								<Reisdetail>Bar/Buffet</Reisdetail>
+													
+								<Reisdetail>Rolstoelplaatsen</Reisdetail>
+													
+								<Reisdetail>Geen fietsen tot 15 maart 2013</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-15T22:26:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">7</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Hilversum</Naam>
+									<Tijd>2013-02-15T22:38:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T22:59:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:23</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:23</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T21:44:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T21:44:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T23:07:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T23:07:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31365</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T21:44:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Ede-Wageningen</Naam>
+								<Tijd>2013-02-15T21:48:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">1a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3078</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede-Wageningen</Naam>
+							<Tijd>2013-02-15T22:11:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Veenendaal-De Klomp</Naam>
+									<Tijd>2013-02-15T22:16:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Driebergen-Zeist</Naam>
+									<Tijd>2013-02-15T22:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Centraal</Naam>
+									<Tijd>2013-02-15T22:40:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Amstel</Naam>
+									<Tijd>2013-02-15T22:58:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T23:07:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:30</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:30</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>true</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T21:59:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T21:59:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T23:29:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T23:29:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31366</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T21:59:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T22:07:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T22:16:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T22:20:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T22:27:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-15T22:33:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>1582</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-15T22:56:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">7</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Hilversum</Naam>
+									<Tijd>2013-02-15T23:08:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T23:29:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">11a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>2</AantalOverstappen>
+			<GeplandeReisTijd>1:27</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:31</ActueleReisTijd>
+			
+			
+			
+				<AankomstVertraging>+4 min</AankomstVertraging>
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T21:59:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T21:59:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T23:26:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T23:30:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>NIET-OPTIMAAL</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31366</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T21:59:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T22:07:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T22:16:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T22:20:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T22:27:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-15T22:33:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>11780</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-15T22:40:00+0100</Tijd>
+							
+							  
+								
+									<Spoor wijziging="true">6</Spoor>
+								  
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2013-02-15T22:55:00+0100</Tijd>
+								
+								  
+									
+										<Spoor wijziging="true">8</Spoor>
+									  
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS Hispeed</Vervoerder>
+						<VervoerType>ICE International</VervoerType>
+						<RitNummer>120</RitNummer>
+             			
+                        
+                              <Status>VERTRAAGD</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Toeslag</Reisdetail>
+													
+								<Reisdetail>Reserveren buitenl. aanbevolen</Reisdetail>
+													
+								<Reisdetail>Bar/Buffet</Reisdetail>
+													
+								<Reisdetail>Rolstoelplaatsen</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Utrecht Centraal</Naam>
+							<Tijd>2013-02-15T23:01:00+0100</Tijd>
+							
+								<VertrekVertraging>+6 min</VertrekVertraging>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">4a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T23:26:00+0100</Tijd>
+								
+									<VertrekVertraging>+4 min</VertrekVertraging>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">7b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:23</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:23</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T22:14:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T22:14:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T23:37:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T23:37:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31367</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T22:14:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Ede-Wageningen</Naam>
+								<Tijd>2013-02-15T22:18:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">1a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3080</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede-Wageningen</Naam>
+							<Tijd>2013-02-15T22:41:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Veenendaal-De Klomp</Naam>
+									<Tijd>2013-02-15T22:46:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Driebergen-Zeist</Naam>
+									<Tijd>2013-02-15T22:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Centraal</Naam>
+									<Tijd>2013-02-15T23:10:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Amstel</Naam>
+									<Tijd>2013-02-15T23:28:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T23:37:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:30</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:30</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T22:29:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T22:29:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-15T23:59:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-15T23:59:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31368</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T22:29:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T22:37:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T22:46:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T22:50:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T22:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-15T23:03:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>1584</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-15T23:26:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">7</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Hilversum</Naam>
+									<Tijd>2013-02-15T23:38:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-15T23:59:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">11a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:22</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:22</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T22:44:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T22:44:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-16T00:06:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-16T00:06:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31369</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T22:44:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Ede-Wageningen</Naam>
+								<Tijd>2013-02-15T22:48:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">1a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3082</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede-Wageningen</Naam>
+							<Tijd>2013-02-15T23:11:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Veenendaal-De Klomp</Naam>
+									<Tijd>2013-02-15T23:16:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Driebergen-Zeist</Naam>
+									<Tijd>2013-02-15T23:29:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Utrecht Centraal</Naam>
+									<Tijd>2013-02-15T23:40:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Amstel</Naam>
+									<Tijd>2013-02-15T23:58:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-16T00:06:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:30</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:30</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T22:59:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T22:59:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-16T00:29:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-16T00:29:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31370</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T22:59:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T23:07:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T23:16:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T23:20:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T23:27:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-15T23:33:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>1586</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-15T23:56:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">7</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Hilversum</Naam>
+									<Tijd>2013-02-16T00:08:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-16T00:29:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">11a</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>2</AantalOverstappen>
+			<GeplandeReisTijd>1:30</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:30</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T23:29:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T23:29:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-16T00:59:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-16T00:59:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31372</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T23:29:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T23:37:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T23:46:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T23:50:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T23:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-16T00:03:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>1786</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-16T00:10:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">6a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2013-02-16T00:25:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>886</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Utrecht Centraal</Naam>
+							<Tijd>2013-02-16T00:32:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">5a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2013-02-17T00:45:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Amstel</Naam>
+									<Tijd>2013-02-17T00:50:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-16T00:59:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">8b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:39</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:39</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2013-02-15T23:29:00+0100</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2013-02-15T23:29:00+0100</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2013-02-16T01:08:00+0100</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2013-02-16T01:08:00+0100</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>Connexxion</Vervoerder>
+						<VervoerType>Stoptrein</VervoerType>
+						<RitNummer>31372</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+						<Reisdetails>
+													
+								<Reisdetail>Geen AVR-NS</Reisdetail>
+							
+						</Reisdetails>
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Ede Centrum</Naam>
+							<Tijd>2013-02-15T23:29:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Lunteren</Naam>
+									<Tijd>2013-02-15T23:37:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Centrum</Naam>
+									<Tijd>2013-02-15T23:46:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Barneveld Noord</Naam>
+									<Tijd>2013-02-15T23:50:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hoevelaken</Naam>
+									<Tijd>2013-02-15T23:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amersfoort</Naam>
+								<Tijd>2013-02-16T00:03:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">4b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>5886</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2013-02-16T00:15:00+0100</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">4a</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Baarn</Naam>
+									<Tijd>2013-02-16T00:22:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hilversum</Naam>
+									<Tijd>2013-02-16T00:30:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Hilversum Noord</Naam>
+									<Tijd>2013-02-16T00:32:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Bussum Zuid</Naam>
+									<Tijd>2013-02-16T00:35:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Naarden-Bussum</Naam>
+									<Tijd>2013-02-16T00:38:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Weesp</Naam>
+									<Tijd>2013-02-16T00:51:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Diemen</Naam>
+									<Tijd>2013-02-16T00:57:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Science Park</Naam>
+									<Tijd>2013-02-16T00:59:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Muiderpoort</Naam>
+									<Tijd>2013-02-16T01:02:00+0100</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Amsterdam Centraal</Naam>
+								<Tijd>2013-02-16T01:08:00+0100</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">7b</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+</ReisMogelijkheden>

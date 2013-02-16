@@ -1,4 +1,5 @@
-require "ns/version"
+require 'version'
+require 'time'
 
 module Ns
   class << self

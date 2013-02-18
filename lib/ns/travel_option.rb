@@ -12,11 +12,21 @@ module Ns
     end
 
     def planned_duration
-      (planned_arrival - planned_departure).to_i
+      duration(planned_arrival, planned_departure)
     end
 
     def actual_duration
-      (actual_arrival - actual_departure).to_i
+      duration(actual_arrival, actual_departure)
+    end
+
+    def delay
+      duration(actual_departure, planned_departure)
+    end
+
+    private
+
+    def duration(latest, first)
+      ((latest - first) * 24 * 60 * 60).to_i
     end
 
   end

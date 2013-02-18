@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe Ns::TravelOption do
 
-  let(:planned_departure) { Time.now + 60 }
-  let(:actual_departure)  { Time.now + 80 }
-  let(:planned_arrival)   { planned_departure + 3600 }
-  let(:actual_arrival)    { actual_departure + 3600 }
+  let(:planned_departure) { DateTime.now }
+  let(:actual_departure)  { DateTime.now + (80.0 / 60 / 60 / 24) }
+  let(:planned_arrival)   { planned_departure + (3600.0 / 60 / 60 / 24) }
+  let(:actual_arrival)    { actual_departure + (3600.0 / 60 / 60 / 24) }
   let(:changes)           { 2 }
 
   subject {
@@ -30,6 +30,10 @@ describe Ns::TravelOption do
 
   it 'should calculate the actual duration' do
     subject.actual_duration.should == 3600
+  end
+
+  it 'should calculate the delay' do
+    subject.delay.should == 80
   end
 
 end

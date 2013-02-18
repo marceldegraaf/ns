@@ -33,14 +33,18 @@ describe Ns::Api::Request::Base do
     subject.send(:http_request)
   end
 
-  it 'should set the query' do
+  it 'should set the query and credentials' do
     request = HTTPI::Request.new('http://foo.com')
-    HTTPI::Request.stub!(:new).and_return(request)
+
     request.should_receive(:query=).with(an_instance_of(Hash))
+    Ns.configuration.should_receive(:username)
+    Ns.configuration.should_receive(:password)
+
+    HTTPI::Request.stub!(:new).and_return(request)
     subject.stub!(:query).and_return({foo: 'bar'})
     subject.class.stub!(:base_uri).and_return('http://foo.com')
 
-    subject.send(:http_request_with_query)
+    subject.send(:http_request_with_query_and_authentication)
   end
 
   it 'should return the url for the request' do

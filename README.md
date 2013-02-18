@@ -17,8 +17,8 @@ To configure the gem, place an <tt>Ns.configure</tt> block in your code:
 
 ```
 Ns.configure do |config|
-  config.username 'john@doe.com'
-  config.password 'your-secret-password'
+  config.username = 'john@doe.com'
+  config.password = 'your-secret-password'
 end
 ```
 

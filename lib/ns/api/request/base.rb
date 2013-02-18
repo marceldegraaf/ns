@@ -16,11 +16,13 @@ module Ns
         private
 
         def url_for_request
-          http_request_with_query
+          http_request_with_query_and_authentication
         end
 
-        def http_request_with_query
+        def http_request_with_query_and_authentication
           http_request.query = query
+          http_request.auth.basic(Ns.configuration.username, Ns.configuration.password)
+
           http_request
         end
 

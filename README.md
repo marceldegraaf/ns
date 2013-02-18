@@ -53,6 +53,9 @@ trip = Ns::Trip.new('Amsterdam Centraal', 'Ede Centrum', arrival: Time.now)
 trip_2 = Ns::Trip.new('Amsterdam Centraal', 'Ede Centrum', departure: Time.now)
 ```
 
+**Note**: the times returned by an instance of <tt>Ns::TravelOption</tt> (e.g.
+trip durations, delays) are all in seconds.
+
 ## Development
 
 Pull requests are welcome! To add your feature: create a fork, implement the

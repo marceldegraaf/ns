@@ -1,9 +1,11 @@
 require 'spec_helper'
 
-describe Ns::Request::TravelAdvice do
+describe Ns::Api::Request::TravelAdvice do
 
-  let(:trip) { Ns::Trip.new('edc', 'asd', departure: Time.now) }
-  subject    { Ns::Request::TravelAdvice.new(trip) }
+  let(:trip)     { Ns::Trip.new('edc', 'asd', departure: Time.now) }
+  let(:xml)      { File.read(File.join($ROOT, 'spec/fixtures/ns_travel_advice_response.xml')) }
+  let(:response) { HTTPI::Response.new(200, [], xml) }
+  subject        { Ns::Api::Request::TravelAdvice.new(trip) }
 
   it 'has a base uri' do
     subject.class.base_uri.should == 'http://webservices.ns.nl/ns-api-treinplanner'
@@ -11,6 +13,11 @@ describe Ns::Request::TravelAdvice do
 
   it 'has a trip' do
     subject.trip.should == trip
+  end
+
+  it 'forwards the response to the correct response class' do
+    subject.stub!(:response_body).and_return(xml)
+    subject.response
   end
 
   describe 'query' do

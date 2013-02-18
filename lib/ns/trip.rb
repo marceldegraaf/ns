@@ -18,7 +18,7 @@ module Ns
     end
 
     def time
-      [ departure, arrival ].compact.first
+      [ departure, arrival ].compact.first || Time.now
     end
 
     def departure?
@@ -43,6 +43,10 @@ module Ns
       true
     end
 
+    def travel_options
+      @travel_options ||= response.travel_options
+    end
+
     private
 
     def arrival_present?
@@ -51,6 +55,14 @@ module Ns
 
     def departure_present?
       !departure.to_s.strip.empty?
+    end
+
+    def travel_advice
+      @travel_advice ||= Ns::Api::Request::TravelAdvice.new(self)
+    end
+
+    def response
+      @response ||= travel_advice.response
     end
 
   end

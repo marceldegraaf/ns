@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'httpi'
-gem 'nori'
+gemspec
 
 group :test do
   gem 'rspec'

@@ -1,12 +1,14 @@
 require 'spec_helper'
 
-describe Ns::Request::Base do
+describe Ns::Api::Request::Base do
 
-  class Dummy < Ns::Request::Base; end
+  class Dummy < Ns::Api::Request::Base; end
+  class DummyResponse; end
 
-  subject { Ns::Request::Base.new }
+  subject { Ns::Api::Request::Base.new }
 
-  let(:response) { HTTPI::Response.new(200, [], 'OK') }
+  let(:xml)      { File.read(File.join($ROOT, 'spec/fixtures/ns_travel_advice_response.xml')) }
+  let(:response) { HTTPI::Response.new(200, [], xml) }
 
   it 'should disable HTTPI logging' do
     HTTPI.should_receive(:log=).with(false)
@@ -19,6 +21,10 @@ describe Ns::Request::Base do
 
   it 'should not implement query' do
     lambda { subject.send(:query) }.should raise_error
+  end
+
+  it 'should not implement response_class' do
+    lambda { subject.class.send(:response_class) }.should raise_error
   end
 
   it 'should have an http request' do
@@ -42,17 +48,16 @@ describe Ns::Request::Base do
     subject.stub!(:http_request).and_return(request)
     subject.stub!(:query).and_return({foo: 'bar'})
 
-    subject.send(:url_for_request).to_s.should == 'http://foo.com?foo=bar'
+    subject.send(:url_for_request).should be_an_instance_of(HTTPI::Request)
   end
 
-  it 'should perform the request' do
-    url_for_request = HTTPI::Request.new('http://foo.com').url
-    subject.stub!(:url_for_request).and_return(url_for_request)
-    HTTPI.stub(:get).and_return(response)
+  it 'should fetch the plain text response body' do
+    subject.class.stub!(:base_uri).and_return('http://foo.com')
+    subject.stub!(:query).and_return({})
+    HTTPI.should_receive(:get).and_return(response)
+    response.should_receive(:body)
 
-    subject.response.should == nil
-    subject.perform
-    subject.response.should == response
+    subject.send(:response_body)
   end
 
 end

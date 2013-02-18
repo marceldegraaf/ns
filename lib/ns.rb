@@ -9,6 +9,8 @@ $:.unshift(lib_path)
 
 $ROOT = File.expand_path("../", lib_path)
 
+require 'ns/model'
+
 Dir.glob(File.join(lib_path, '/**/*.rb')).each do |file|
   require file
 end

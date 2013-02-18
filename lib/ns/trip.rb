@@ -58,7 +58,7 @@ module Ns
     end
 
     def travel_advice
-      @travel_advice ||= Ns::Api::Request::TravelAdvice.new(self)
+      @travel_advice ||= Ns::Api::Request::TravelAdvice.new(trip: self)
     end
 
     def response

@@ -2,6 +2,7 @@ module Ns
   module Api
     module Request
       class TravelAdvice < Ns::Api::Request::Base
+        include Ns::Model
 
         attr_accessor :trip
 
@@ -11,12 +12,6 @@ module Ns
 
         def self.response_class
           Ns::Api::Response::TravelAdvice
-        end
-
-        def initialize(trip)
-          @trip = trip
-
-          super
         end
 
         private

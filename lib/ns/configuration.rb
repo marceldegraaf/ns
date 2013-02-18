@@ -7,5 +7,13 @@ module Ns
       @password = nil
     end
 
+    def username
+      @username || ''
+    end
+
+    def password
+      @password || ''
+    end
+
   end
 end

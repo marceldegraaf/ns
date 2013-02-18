@@ -41,14 +41,13 @@ describe Ns::Trip do
   end
 
   it 'has travel options' do
-    travel_advice = Ns::Api::Request::TravelAdvice.new(subject)
+    response = double('travel_advice_response')
+    response.stub!(:travel_options)
+    travel_advice = double('travel_advice')
+    travel_advice.stub!(:response).and_return(response)
     Ns::Api::Request::TravelAdvice.stub!(:new).and_return(travel_advice)
-    travel_advice.stub!(:response_body).and_return(xml)
 
     travel_options = subject.travel_options
-
-    travel_options.size.should == 14
-    travel_options.map(&:class).uniq.should == [Ns::TravelOption]
   end
 
   describe 'validations' do

@@ -5,7 +5,7 @@ describe Ns::Api::Request::TravelAdvice do
   let(:trip)     { Ns::Trip.new('edc', 'asd', departure: Time.now) }
   let(:xml)      { File.read(File.join($ROOT, 'spec/fixtures/ns_travel_advice_response.xml')) }
   let(:response) { HTTPI::Response.new(200, [], xml) }
-  subject        { Ns::Api::Request::TravelAdvice.new(trip) }
+  subject        { Ns::Api::Request::TravelAdvice.new(trip: trip) }
 
   it 'has a base uri' do
     subject.class.base_uri.should == 'http://webservices.ns.nl/ns-api-treinplanner'

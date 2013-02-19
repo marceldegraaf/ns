@@ -19,11 +19,11 @@ module Ns
         def query
           {
             fromStation: trip.from.name,
-            toStation: trip.to.name,
-            dateTime: trip.formatted_time,
-            departure: trip.departure?,
-            hslAllowed: trip.allow_hsl,
-            yearCard: trip.year_card
+            toStation:   trip.to.name,
+            dateTime:    trip.formatted_time,
+            departure:   trip.departure?,
+            hslAllowed:  trip.allow_hsl,
+            yearCard:    trip.year_card
           }
         end
 

@@ -4,7 +4,7 @@ module Ns
       class DisruptionCollection < Ns::Api::Request::Base
         include Ns::Model
 
-        attr_accessor :station
+        attr_accessor :disruption_collection
 
         def self.base_uri
           'http://webservices.ns.nl/ns-api-storingen'
@@ -18,7 +18,9 @@ module Ns
 
         def query
           {
-            station: station
+            station:   disruption_collection.station,
+            actual:    disruption_collection.actual,
+            unplanned: disruption_collection.include_planned
           }
         end
 

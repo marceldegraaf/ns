@@ -1,16 +1,23 @@
 module Ns
   class Trip
+    include Ns::Model
 
     attr_accessor :from, :to, :departure, :arrival, :allow_hsl, :year_card
 
-    def initialize(from, to, options = {})
-      @from = Ns::Station.new(from)
-      @to = Ns::Station.new(to)
+    def from
+      @from_station ||= Ns::Station.new(name: self.instance_variable_get("@from"))
+    end
 
-      @departure = options.delete(:departure)
-      @arrival   = options.delete(:arrival)
-      @allow_hsl = options.delete(:allow_hsl) || false
-      @year_card = options.delete(:year_card) || false
+    def to
+      @to_station ||= Ns::Station.new(name: self.instance_variable_get("@to"))
+    end
+
+    def allow_hsl
+      self.instance_variable_get("@allow_hsl") || false
+    end
+
+    def year_card
+      self.instance_variable_get("@year_card") || false
     end
 
     def formatted_time

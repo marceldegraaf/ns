@@ -24,4 +24,9 @@ describe Ns::DisruptionCollection do
     subject.unplanned_disruptions
   end
 
+  it 'has a disruption_collection' do
+    object = Ns::DisruptionCollection.new(station: 'asd')
+    lambda { object.send(:disruption_collection) }.should_not raise_error
+  end
+
 end

@@ -5,12 +5,12 @@ module Ns
 
         attr_reader :response, :parsed_response
 
-        def initialize(*args)
+        def initialize(attributes = {})
           HTTPI.log = false
         end
 
         def response
-          self.class.response_class.new(parsed_response)
+          self.class.response_class.new(parsed_response: parsed_response)
         end
 
         private
@@ -35,7 +35,7 @@ module Ns
         end
 
         def response_parser
-          @response_parser ||= Ns::Api::Response::Parser.new(response_body)
+          @response_parser ||= Ns::Api::Response::Parser.new(response_text: response_body)
         end
 
         def response_body

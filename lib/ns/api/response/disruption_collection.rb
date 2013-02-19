@@ -2,12 +2,9 @@ module Ns
   module Api
     module Response
       class DisruptionCollection
+        include Ns::Model
 
-        attr_reader :parsed_response
-
-        def initialize(parsed_response)
-          @parsed_response = parsed_response
-        end
+        attr_accessor :parsed_response
 
         def planned_disruptions
           ( raw_disruptions['Gepland'] || [] ).map do |raw_disruption|
@@ -22,14 +19,6 @@ module Ns
         end
 
         private
-
-        def raw_disruptions
-          if parsed_response.has_key?('Storingen') && ( parsed_response['Storingen'].has_key?('Gepland') || parsed_response['Storingen'].has_key?('Ongepland') )
-            parsed_response['Storingen']
-          else
-            {}
-          end
-        end
 
         #
         # Each disruption looks like this:
@@ -51,6 +40,14 @@ module Ns
               advice:  raw_disruption['Advies'],
               period:  raw_disruption['Periode']
             )
+          end
+        end
+
+        def raw_disruptions
+          if parsed_response.has_key?('Storingen') && ( parsed_response['Storingen'].has_key?('Gepland') || parsed_response['Storingen'].has_key?('Ongepland') )
+            parsed_response['Storingen']
+          else
+            {}
           end
         end
 

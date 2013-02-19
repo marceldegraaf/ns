@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Ns::Api::Request::TravelAdvice do
 
-  let(:trip)     { Ns::Trip.new('edc', 'asd', departure: Time.now) }
+  let(:trip)     { Ns::Trip.new(from: 'edc', to: 'asd', departure: Time.now) }
   let(:xml)      { File.read(File.join($ROOT, 'spec/fixtures/ns_travel_advice_response.xml')) }
   let(:response) { HTTPI::Response.new(200, [], xml) }
   subject        { Ns::Api::Request::TravelAdvice.new(trip: trip) }

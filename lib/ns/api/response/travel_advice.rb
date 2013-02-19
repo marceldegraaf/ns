@@ -2,12 +2,9 @@ module Ns
   module Api
     module Response
       class TravelAdvice
+        include Ns::Model
 
-        attr_reader :parsed_response
-
-        def initialize(parsed_response)
-          @parsed_response = parsed_response
-        end
+        attr_accessor :parsed_response
 
         def travel_options
           raw_travel_options.map do |travel_option|

@@ -4,7 +4,7 @@ module Ns
 
     attr_accessor :planned_departure, :actual_departure,
                   :planned_arrival, :actual_arrival,
-                  :changes
+                  :changes, :platform
 
     def planned_duration
       duration(planned_arrival, planned_departure)

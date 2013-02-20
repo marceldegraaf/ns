@@ -7,6 +7,7 @@ describe Ns::TravelOption do
   let(:planned_arrival)   { planned_departure + (3600.0 / 60 / 60 / 24) }
   let(:actual_arrival)    { actual_departure + (3600.0 / 60 / 60 / 24) }
   let(:changes)           { 2 }
+  let(:platform)          { '9a' }
 
   subject {
     Ns::TravelOption.new(
@@ -14,12 +15,13 @@ describe Ns::TravelOption do
       actual_departure:  actual_departure,
       planned_arrival:   planned_arrival,
       actual_arrival:    actual_arrival,
-      changes:           changes
+      changes:           changes,
+      platform:          platform
     )
   }
 
   it 'should initialize properly' do
-    %w(planned_departure actual_departure planned_arrival actual_arrival changes).each do |var|
+    %w(planned_departure actual_departure planned_arrival actual_arrival changes platform).each do |var|
       subject.send(var).should == send(var)
     end
   end

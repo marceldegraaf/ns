@@ -13,7 +13,8 @@ module Ns
               actual_departure:  travel_option['ActueleVertrekTijd'],
               planned_arrival:   travel_option['GeplandeAankomstTijd'],
               actual_arrival:    travel_option['ActueleAankomstTijd'],
-              changes:           travel_option['AantalOverstappen']
+              changes:           travel_option['AantalOverstappen'],
+              platform:          travel_option['ReisDeel'].first['ReisStop']['Spoor']
             )
           end
         end

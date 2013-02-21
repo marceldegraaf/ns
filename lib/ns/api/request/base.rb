@@ -41,6 +41,7 @@ module Ns
         def response_body
           @response_body ||= plain_text_response.body
           #@response_body ||= File.read(File.join($ROOT, 'spec/fixtures/ns_travel_advice_response.xml'))
+          #@response_body ||= File.read(File.join($ROOT, 'spec/fixtures/ns_disruptions_with_results.xml'))
         end
 
         def plain_text_response

@@ -32,7 +32,7 @@ describe Ns::Api::Response::TravelAdvice do
     travel_option.should_receive(:[]).with('GeplandeAankomstTijd')
     travel_option.should_receive(:[]).with('ActueleAankomstTijd')
     travel_option.should_receive(:[]).with('AantalOverstappen')
-    travel_option.should_receive(:[]).with('ReisDeel').and_return([{'ReisStop' => { 'Spoor' => '9a' }}])
+    travel_option.should_receive(:[]).with('ReisDeel').and_return([{'ReisStop' => [{ 'Spoor' => '9a' }]}])
 
     subject.travel_options
   end

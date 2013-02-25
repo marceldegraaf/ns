@@ -1,4 +1,3 @@
-require 'version'
 require 'time'
 require 'httpi'
 require 'nori'

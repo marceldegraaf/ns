@@ -4,10 +4,6 @@ describe Ns do
 
   let(:configuration) { Ns::Configuration.new }
 
-  it 'should have a version' do
-    Ns::VERSION.should_not be_nil
-  end
-
   it 'should be configurable' do
     Ns.configure do |config|
       config.username = 'john'

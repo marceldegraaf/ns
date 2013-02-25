@@ -14,7 +14,8 @@ module Ns
               planned_arrival:   travel_option['GeplandeAankomstTijd'],
               actual_arrival:    travel_option['ActueleAankomstTijd'],
               changes:           travel_option['AantalOverstappen'],
-              platform:          travel_option['ReisDeel'].first['ReisStop'].first['Spoor']
+              platform:          platform(travel_option),
+              optimal:           travel_option['Optimaal']
             )
           end
         end
@@ -26,6 +27,16 @@ module Ns
             parsed_response['ReisMogelijkheden']['ReisMogelijkheid']
           else
             []
+          end
+        end
+
+        def platform(travel_option)
+          travel_part = travel_option['ReisDeel']
+
+          if travel_part.is_a?(Array)
+            travel_part.first['ReisStop'].first['Spoor']
+          else
+            travel_part['ReisStop'].first['Spoor']
           end
         end
 

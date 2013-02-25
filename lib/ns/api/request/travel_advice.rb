@@ -20,6 +20,7 @@ module Ns
           {
             fromStation: trip.from.name,
             toStation:   trip.to.name,
+            viaStation:  trip.via.name,
             dateTime:    trip.formatted_time,
             departure:   trip.departure?,
             hslAllowed:  trip.allow_hsl,

@@ -32,7 +32,23 @@ describe Ns::Api::Response::TravelAdvice do
     travel_option.should_receive(:[]).with('GeplandeAankomstTijd')
     travel_option.should_receive(:[]).with('ActueleAankomstTijd')
     travel_option.should_receive(:[]).with('AantalOverstappen')
+    travel_option.should_receive(:[]).with('Optimaal')
     travel_option.should_receive(:[]).with('ReisDeel').and_return([{'ReisStop' => [{ 'Spoor' => '9a' }]}])
+
+    subject.travel_options
+  end
+
+  it 'should map travel options to Ns::TravelOption objects if only one travel option is present' do
+    subject.stub!(:raw_travel_options).and_return([travel_option])
+    Ns::TravelOption.should_receive(:new)
+
+    travel_option.should_receive(:[]).with('GeplandeVertrekTijd')
+    travel_option.should_receive(:[]).with('ActueleVertrekTijd')
+    travel_option.should_receive(:[]).with('GeplandeAankomstTijd')
+    travel_option.should_receive(:[]).with('ActueleAankomstTijd')
+    travel_option.should_receive(:[]).with('AantalOverstappen')
+    travel_option.should_receive(:[]).with('Optimaal')
+    travel_option.should_receive(:[]).with('ReisDeel').and_return({'ReisStop' => [{ 'Spoor' => '9a' }]})
 
     subject.travel_options
   end

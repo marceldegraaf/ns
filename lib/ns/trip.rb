@@ -2,7 +2,7 @@ module Ns
   class Trip
     include Ns::Model
 
-    attr_accessor :from, :to, :departure, :arrival, :allow_hsl, :year_card
+    attr_accessor :from, :to, :via, :departure, :arrival, :allow_hsl, :year_card
 
     def from
       @from_station ||= Ns::Station.new(name: self.instance_variable_get("@from"))
@@ -10,6 +10,10 @@ module Ns
 
     def to
       @to_station ||= Ns::Station.new(name: self.instance_variable_get("@to"))
+    end
+
+    def via
+      @via_station ||= Ns::Station.new(name: self.instance_variable_get("@via"))
     end
 
     def allow_hsl

@@ -42,23 +42,39 @@ trip has a <tt>travel_options</tt> method that returns a collection of
 expose.
 
 ```
-trip = Ns::Trip.new('Amsterdam Centraal', 'Ede Centrum')
+trip = Ns::Trip.new(from: 'Amsterdam Centraal', to: 'Ede Centrum')
 trip.travel_options # <= returns Ns::TravelOption objects
 ```
 
 Optionally you may supply a desired departure or arrival time to the trip:
 
 ```
-trip = Ns::Trip.new('Amsterdam Centraal', 'Ede Centrum', arrival: Time.now)
-trip_2 = Ns::Trip.new('Amsterdam Centraal', 'Ede Centrum', departure: Time.now)
+trip = Ns::Trip.new(from: 'Amsterdam Centraal', to: 'Ede Centrum', arrival: Time.now)
+trip_2 = Ns::Trip.new(from: 'Amsterdam Centraal', to: 'Ede Centrum', departure: Time.now)
 ```
+
+You may also specify a <tt>via</tt> station:
+
+```
+trip = Ns::Trip.new(from: 'Amsterdam Centraal', to: 'Ede Centrum', via: 'Utrecht Centraal', arrival: Time.now)
+```
+
+The returned <tt>Ns::TravelOption</tt> objects have a <tt>optimal</tt> attribute that tells you wether or not the
+travel option is regarded as the optimal option for your trip by the NS.
 
 **Note**: the times returned by an instance of <tt>Ns::TravelOption</tt> (e.g.
 trip durations, delays) are all in seconds.
 
 ### Requesting a list of interruptions
 
+Requesting disruptions requires a station. Disruptions that affect the given station will be returned:
 
+```
+disruption_collection = Ns::DisruptionCollection.new(station: 'Amsterdam Centraal')
+```
+
+An instance of <tt>Ns::DisruptionCollection</tt> has a <tt>planned_disruptions</tt> method and a <tt>unplanned_disruptions</tt>
+method. The results of these methods are <tt>Ns::Disruption</tt> objects.
 
 ## Development
 

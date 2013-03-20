@@ -32,7 +32,7 @@ module Ns
         def new_disruption(raw_disruption)
           if raw_disruption.size >= 2
             raw_disruption = raw_disruption[1]
-            raw_disruption = raw_disruption[0] if raw_disruption.is_a?(Array)
+            raw_disruption = raw_disruption.flatten[0] if raw_disruption.is_a?(Array)
 
             Ns::Disruption.new(
               route:   raw_disruption['Traject'],

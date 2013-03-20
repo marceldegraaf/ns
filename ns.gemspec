@@ -2,9 +2,11 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
+require 'ns/version'
+
 Gem::Specification.new do |gem|
   gem.name          = "ns-api"
-  gem.version       = "0.1"
+  gem.version       = Ns::VERSION
   gem.authors       = ["Marcel de Graaf"]
   gem.email         = ["mail@marceldegraaf.net"]
   gem.description   = %q{A Ruby implementation of the NS (Dutch Railways) API}

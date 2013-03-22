@@ -1,3 +1,5 @@
+require 'ns/api/request/base'
+
 module Ns
   module Api
     module Request

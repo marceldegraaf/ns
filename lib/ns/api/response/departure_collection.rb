@@ -24,6 +24,8 @@ module Ns
             company:          raw_departure['Vervoerder'],
             platform:         raw_departure['VertrekSpoor'],
             travel_tip:       raw_departure['ReisTip'],
+            delay:            raw_departures['VertrekVertraging'],
+            delay_text:       raw_departures['VertrekVertragingTekst'],
             comments:         raw_departure['Opmerkingen'] || []
           )
         end

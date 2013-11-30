@@ -10,6 +10,8 @@ describe Ns::Departure do
   let(:company)           { 'NS' }
   let(:platform)          { '2' }
   let(:travel_tip)        { 'Stopt niet in Arnhem zuid' }
+  let(:delay)             { 'PT1M' }
+  let(:delay_text)        { '+1 min' }
   let(:comments)          { ['Rijdt vandaag niet'] }
 
   subject {
@@ -22,6 +24,8 @@ describe Ns::Departure do
       company:        company,
       platform:       platform,
       travel_tip:     travel_tip,
+      delay:          delay,
+      delay_text:     delay_text,
       comments:       comments
     )
   }

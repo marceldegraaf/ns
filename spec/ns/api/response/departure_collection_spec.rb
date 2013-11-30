@@ -18,7 +18,7 @@ describe Ns::Api::Response::DepartureCollection do
   end
 
   it 'should fetch departures' do
-    parsed_response.should_receive(:has_key?).with('ActueleVertrekTijden').and_return(true)
+    parsed_response.should_receive(:has_key?).any_number_of_times.with('ActueleVertrekTijden').and_return(true)
     parsed_response.should_receive(:[]).any_number_of_times.and_return(departures)
     Ns::Departure.should_receive(:new)
 

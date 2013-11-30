@@ -76,6 +76,18 @@ disruption_collection = Ns::DisruptionCollection.new(station: 'Amsterdam Centraa
 An instance of <tt>Ns::DisruptionCollection</tt> has a <tt>planned_disruptions</tt> method and a <tt>unplanned_disruptions</tt>
 method. The results of these methods are <tt>Ns::Disruption</tt> objects.
 
+
+### Requesting a list of departures
+
+Requesting a list of departures requeres a station.
+
+```
+departures = Ns::DepartureCollection.new(:station => 'klp')
+```
+
+An instance of <tt>Ns::DepartureCollection</tt> has a <tt>departures</tt> method.
+The results of these methods are <tt>Ns::Departure</tt> objects.
+
 ## Development
 
 Pull requests are welcome! To add your feature: create a fork, implement the

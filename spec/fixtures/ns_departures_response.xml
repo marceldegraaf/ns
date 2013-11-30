@@ -1,0 +1,25 @@
+<ActueleVertrekTijden>
+  <VertrekkendeTrein>
+    <RitNummer>7478</RitNummer>
+    <VertrekTijd>2012-02-19T22:47:00+0100</VertrekTijd>
+    <VertrekVertraging>PT2M</VertrekVertraging>
+    <VertrekVertragingTekst>+2 min</VertrekVertragingTekst>
+    <EindBestemming>Breukelen</EindBestemming>
+    <TreinSoort>Sprinter</TreinSoort>
+    <Vervoerder>NS</Vervoerder>
+    <VertrekSpoor wijziging="true">7</VertrekSpoor>
+    <ReisTip>Stopt niet in Arnhem Zuid</ReisTip>
+    <Opmerkingen>
+      <Opmerking>Niet instappen</Opmerking>
+    </Opmerkingen>
+  </VertrekkendeTrein>
+  <VertrekkendeTrein>
+    <RitNummer>20578</RitNummer>
+    <VertrekTijd>2012-02-19T22:47:00+0100</VertrekTijd>
+    <EindBestemming>Rotterdam Centraal</EindBestemming>
+    <TreinSoort>Intercity</TreinSoort>
+    <RouteTekst>Gouda, R'dam Alexander</RouteTekst>
+    <Vervoerder>NS</Vervoerder>
+    <VertrekSpoor wijziging="false">9b</VertrekSpoor>
+  </VertrekkendeTrein>
+</ActueleVertrekTijden>

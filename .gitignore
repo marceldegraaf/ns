@@ -3,6 +3,7 @@
 .bundle
 .config
 .ruby-version
+.DS_Store
 coverage
 InstalledFiles
 lib/bundler/man
